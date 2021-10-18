@@ -1,0 +1,14 @@
+@startuml
+
+class Solution42{
+    main(String[])
+    format(ArrayList<Person>);
+}
+
+class Person{
+    String: firstName
+    String: lastName
+    int: salary
+}
+
+@enduml
