@@ -1,0 +1,6 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ΆΰσΔ
+s
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(Τ’τόÿÿÿÿ8Υ¦‡Ι/
+>
+java:S1643"Use a StringBuilder instead.(Τ’τόÿÿÿÿ8Χ¦‡Ι/
