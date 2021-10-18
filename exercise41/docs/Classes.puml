@@ -1,0 +1,20 @@
+@startuml
+
+class Person{
+    String: first
+    String: last
+
+    compareTo(Person)
+}
+
+class Solution41{
+    main(String[])
+    sortedNames(ArrayList<Person>)
+}
+
+Person -- Comparable
+
+interface Comparable{
+    compareTo()
+}
+@enduml

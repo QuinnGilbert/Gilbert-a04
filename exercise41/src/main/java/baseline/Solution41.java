@@ -10,7 +10,7 @@ public class Solution41 {
 
     public static void main(String[] args) throws IOException{
         //input and parse data
-        Scanner in = new Scanner(new FileReader("exercise41_input.txt"));
+        Scanner in = new Scanner(new FileReader("data/exercise41_input.txt"));
         ArrayList<Person> people = new ArrayList<>();
         while(in.hasNext()) {
             String first = in.next();
@@ -21,7 +21,7 @@ public class Solution41 {
         //get sorted names
         String output = sortedNames(people);
         //print data
-        PrintWriter out = new PrintWriter(new FileWriter("exercise41_output.txt"));
+        PrintWriter out = new PrintWriter(new FileWriter("data/exercise41_output.txt"));
         out.println(output);
         out.close();
     }
