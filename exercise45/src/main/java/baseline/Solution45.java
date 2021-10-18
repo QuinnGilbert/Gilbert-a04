@@ -21,19 +21,22 @@ public class Solution45 {
         String output = replace(data);
         //write result to file
         PrintWriter out = new PrintWriter(new FileWriter("data/newFile.txt"));
+        out.println(output);
+        out.close();
     }
 
     static String replace(String data){
         //loop through all occurrences and replace add different value to string
         String result = "";
-        for(int i=0;i<data.length();i++){
-            if(!data.substring(i,i+7).equals("utilize")){
+        for(int i=0;i<data.length()-7;i++){
+            if(data.substring(i,i+7).equals("utilize")){
                 result+="use";
-                i+=7;
+                i+=6;
             }else{
                 result+=data.charAt(i);
             }
         }
+        result+=data.substring(data.length()-7);
         return result;
     }
 }

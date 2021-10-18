@@ -1,0 +1,8 @@
+@startuml
+
+class Solution45{
+    main(String[])
+    replace(String)
+}
+
+@enduml
