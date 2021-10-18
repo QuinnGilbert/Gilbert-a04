@@ -1,0 +1,16 @@
+
+[	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(¿Ó—Ø
+N	java:S106
+"9Replace this use of System.out or System.err by a logger.(ˆ¡Œü
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Äá´ì
+N	java:S106"9Replace this use of System.out or System.err by a logger.(×³ş¤
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ËŞ‹íüÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¾‘úÕüÿÿÿÿ
+\	java:S899"BDo something with the "boolean" value returned by "createNewFile".(ñíÄıÿÿÿÿ
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(¦ÒÈåûÿÿÿÿ
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(Å¡¯øÿÿÿÿ
+S	java:S106("9Replace this use of System.out or System.err by a logger.(×åüûÿÿÿÿ
+e
+java:S1192"JDefine a constant instead of duplicating this literal "/website/" 3 times.(à‹î·ÿÿÿÿÿ
+n
+java:S1192"SDefine a constant instead of duplicating this literal "Created ./website/" 3 times.(¾‘úÕüÿÿÿÿ
